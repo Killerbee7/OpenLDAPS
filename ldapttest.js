@@ -5,5 +5,5 @@ const client = ldap.createClient({
 });
 
 client.on('connectError', (err) => {
-  // handle connection error
+  // handle connection
 })
